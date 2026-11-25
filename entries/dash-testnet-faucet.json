@@ -1,0 +1,10 @@
+{
+  "name": "Dash testnet faucet",
+  "author": "ktechmidas",
+  "description": "Web faucet for the Dash testnet. It sends 1 tDASH to a testnet address and creates Dash Platform identities, with the keys generated in the browser. Useful when a test needs a small amount of testnet funds or a fresh identity.",
+  "web_url": "https://faucet.testnet.networks.dash.org/",
+  "status": "live",
+  "access": "Public web page. For larger testnet amounts, the infrastructure team in #infra-claw is who to ask.",
+  "tags": ["testnet", "faucet", "platform", "identity"],
+  "last_verified": "2026-11-25"
+}
