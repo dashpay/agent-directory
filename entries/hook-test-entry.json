@@ -1,0 +1,8 @@
+{
+  "name": "Hook test entry",
+  "author": "dcg-infraclaw",
+  "description": "A deliberately invalid entry that tests the review hook. Not for merging.",
+  "web_url": "http://example.org/",
+  "status": "working",
+  "[click](https://example.org) @ktechmidas": "x"
+}
