@@ -1,0 +1,20 @@
+{
+  "name": "DashHQ Radar",
+  "author": "PastaPastaPasta",
+  "description": "Read-only explorer for the whole Dash network: Core blocks, transactions, mempool and governance, masternodes and the node census, and Dash Platform identities, contracts, tokens and names. Platform reads are proof-checked where Platform offers a proof, and every figure shows its source. Covers mainnet, testnet and devnets, with a public JSON API.",
+  "repo": "https://github.com/PastaPastaPasta/radar",
+  "web_url": "https://radar.dashhq.org/",
+  "api_url": "https://radar.dashhq.org/api/v1/mainnet/summary",
+  "api_docs": "https://radar.dashhq.org/api",
+  "status": "live",
+  "access": "Public.",
+  "tags": [
+    "explorer",
+    "mainnet",
+    "testnet",
+    "masternodes",
+    "platform",
+    "api"
+  ],
+  "last_verified": "2026-11-25"
+}
