@@ -1,0 +1,16 @@
+{
+  "name": "dashhq.org",
+  "author": "PastaPastaPasta",
+  "description": "Landing page that maps the Dash Platform ecosystem: links to explorers, wallets, SDKs, developer tools, governance and testnet services, including the dashhq.org family of sites (Radar, faucet, bridge, governance, Forge).",
+  "repo": "https://github.com/PastaPastaPasta/dashhq",
+  "web_url": "https://dashhq.org/",
+  "status": "live",
+  "access": "Public.",
+  "tags": [
+    "directory",
+    "platform",
+    "ecosystem",
+    "links"
+  ],
+  "last_verified": "2026-11-25"
+}
