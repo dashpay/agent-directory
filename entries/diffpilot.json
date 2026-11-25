@@ -1,0 +1,17 @@
+{
+  "name": "diffpilot",
+  "author": "lklimek",
+  "description": "Self-hosted web tool that helps a person review GitHub pull requests: final code with the changes grouped into flows and walked step by step, LLM analysis kept apart from deterministic facts, and project-level context. Also a work dashboard that ranks the user's pull requests, issues and MemCan TODOs, with an agent API and a feed of review comment decisions for agents to carry out.",
+  "repo": "https://github.com/lklimek/diffpilot",
+  "api_docs": "https://github.com/lklimek/diffpilot/blob/main/docs/contracts/agent-api.md",
+  "status": "experimental",
+  "access": "Public, Apache-2.0. Self-hosted; there is no shared instance. Ask lklimek.",
+  "tags": [
+    "pull-requests",
+    "code-review",
+    "dashboard",
+    "llm",
+    "self-hosted"
+  ],
+  "last_verified": "2026-11-25"
+}
