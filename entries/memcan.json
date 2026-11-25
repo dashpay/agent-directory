@@ -1,0 +1,17 @@
+{
+  "name": "MemCan",
+  "author": "lklimek",
+  "description": "Self-hosted MCP server and Claude Code plugin that gives coding agents persistent, searchable memory across sessions: lessons, decisions and preferences, per-project TODOs, indexed coding standards and semantic code search. Runs locally on LanceDB, fastembed and Ollama.",
+  "repo": "https://github.com/lklimek/memcan",
+  "api_docs": "https://github.com/lklimek/memcan/blob/main/SETUP.md",
+  "status": "live",
+  "access": "Public, MIT licensed. Self-hosted: install the Claude Code plugin from the lklimek/agents marketplace and run your own server; there is no shared instance.",
+  "tags": [
+    "agents",
+    "memory",
+    "mcp",
+    "claude-code",
+    "todos"
+  ],
+  "last_verified": "2026-11-25"
+}
