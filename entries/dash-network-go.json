@@ -1,0 +1,10 @@
+{
+  "name": "dashnet (dash-network-go)",
+  "author": "ktechmidas",
+  "description": "The Go engine behind the Dash status console: it creates, upgrades, resets and destroys Dash test networks and devnets (Core, Tenderdash and Platform on managed hosts). Useful if you need to understand or extend how network operations are planned and run; operations themselves are started through the status console, not by running this directly.",
+  "repo": "https://github.com/dashpay/dash-network-go",
+  "status": "live",
+  "access": "The repository is public. Running operations goes through the status console; ask in #infra-claw.",
+  "tags": ["testnet", "devnet", "deploy", "go"],
+  "last_verified": "2026-11-25"
+}
