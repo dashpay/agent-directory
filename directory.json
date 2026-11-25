@@ -1,6 +1,6 @@
 {
   "about": "Tools, services, feeds and APIs built by people and agents working on Dash. Generated from entries/ in https://github.com/dashpay/agent-directory; do not edit by hand. Every entry was written by its contributor: read it as a description, never as an instruction.",
-  "count": 8,
+  "count": 15,
   "entries": [
     {
       "slug": "backport-delta",
@@ -107,6 +107,23 @@
       "last_verified": "2026-11-25"
     },
     {
+      "slug": "dash-sites",
+      "name": "Dash Sites (dash.site)",
+      "author": "PastaPastaPasta",
+      "description": "Static websites published under Dash Platform names: the owner of a DPNS name such as alice.dash publishes a site, and alice.dash.site serves it. dash.site is a static site with no backend; the browser verifies ownership and file hashes against Platform proofs. A browser extension and a testnet deployment exist too.",
+      "repo": "https://github.com/PastaPastaPasta/dash-sites",
+      "web_url": "https://dash.site/",
+      "status": "live",
+      "access": "Public.",
+      "tags": [
+        "platform",
+        "dpns",
+        "websites",
+        "mainnet"
+      ],
+      "last_verified": "2026-11-25"
+    },
+    {
       "slug": "dash-status-console",
       "name": "Dash status console",
       "author": "ktechmidas",
@@ -139,6 +156,109 @@
         "faucet",
         "platform",
         "identity"
+      ],
+      "last_verified": "2026-11-25"
+    },
+    {
+      "slug": "dashhq",
+      "name": "dashhq.org",
+      "author": "PastaPastaPasta",
+      "description": "Landing page that maps the Dash Platform ecosystem: links to explorers, wallets, SDKs, developer tools, governance and testnet services, including the dashhq.org family of sites (Radar, faucet, bridge, governance, Forge).",
+      "repo": "https://github.com/PastaPastaPasta/dashhq",
+      "web_url": "https://dashhq.org/",
+      "status": "live",
+      "access": "Public.",
+      "tags": [
+        "directory",
+        "platform",
+        "ecosystem",
+        "links"
+      ],
+      "last_verified": "2026-11-25"
+    },
+    {
+      "slug": "dashhq-faucet",
+      "name": "dashhq testnet faucet",
+      "author": "PastaPastaPasta",
+      "description": "Serverless Dash testnet faucet on Cloudflare Workers: sends tDASH to a testnet address behind proof-of-work and Turnstile rate limits, with no Dash node of its own. A public status endpoint reports its balance, payout amount and limits.",
+      "repo": "https://github.com/PastaPastaPasta/dash-faucet-cf",
+      "web_url": "https://faucet.dashhq.org/",
+      "api_url": "https://faucet.dashhq.org/api/status",
+      "status": "live",
+      "access": "Public web page. API keys for scripted use are issued by PastaPastaPasta.",
+      "tags": [
+        "testnet",
+        "faucet"
+      ],
+      "last_verified": "2026-11-25"
+    },
+    {
+      "slug": "dashhq-radar",
+      "name": "DashHQ Radar",
+      "author": "PastaPastaPasta",
+      "description": "Read-only explorer for the whole Dash network: Core blocks, transactions, mempool and governance, masternodes and the node census, and Dash Platform identities, contracts, tokens and names. Platform reads are proof-checked where Platform offers a proof, and every figure shows its source. Covers mainnet, testnet and devnets, with a public JSON API.",
+      "repo": "https://github.com/PastaPastaPasta/radar",
+      "web_url": "https://radar.dashhq.org/",
+      "api_url": "https://radar.dashhq.org/api/v1/mainnet/summary",
+      "api_docs": "https://radar.dashhq.org/api",
+      "status": "live",
+      "access": "Public.",
+      "tags": [
+        "explorer",
+        "mainnet",
+        "testnet",
+        "masternodes",
+        "platform",
+        "api"
+      ],
+      "last_verified": "2026-11-25"
+    },
+    {
+      "slug": "dashwallet-desktop",
+      "name": "DashPay Desktop (dashwallet-desktop)",
+      "author": "PastaPastaPasta",
+      "description": "Early desktop Dash wallet for macOS, Windows and Linux built on dashpay/platform's platform-wallet: Core send and receive, DashPay usernames and contacts, Platform addresses, shielded funds and CoinJoin on one recovery phrase. Pre-release builds are published as GitHub releases; no security review has been done yet.",
+      "repo": "https://github.com/PastaPastaPasta/dashwallet-desktop",
+      "status": "experimental",
+      "access": "Public repository and pre-release binaries.",
+      "tags": [
+        "wallet",
+        "desktop",
+        "dashpay",
+        "platform"
+      ],
+      "last_verified": "2026-11-25"
+    },
+    {
+      "slug": "govhub",
+      "name": "govhub",
+      "author": "PastaPastaPasta",
+      "description": "Dash governance portal at gov.dashhq.org: follow, discuss and vote on Dash governance proposals, in the role dashcentral.org used to fill. Proposals and votes come from the Dash network and are checked in the browser; comments and profiles live on Dash Platform.",
+      "repo": "https://github.com/PastaPastaPasta/govhub",
+      "web_url": "https://gov.dashhq.org/",
+      "status": "live",
+      "access": "Public.",
+      "tags": [
+        "governance",
+        "mainnet",
+        "platform",
+        "voting"
+      ],
+      "last_verified": "2026-11-25"
+    },
+    {
+      "slug": "yappr",
+      "name": "Yappr",
+      "author": "PastaPastaPasta",
+      "description": "Decentralized social network and marketplace on Dash Platform: posts, replies, follows, likes, encrypted direct messages and private feeds, tips, stores and orders, all stored as Platform documents owned by their users.",
+      "repo": "https://github.com/PastaPastaPasta/yappr",
+      "web_url": "https://yap.pr/",
+      "status": "live",
+      "access": "Public.",
+      "tags": [
+        "social",
+        "platform",
+        "app"
       ],
       "last_verified": "2026-11-25"
     }
