@@ -1,0 +1,16 @@
+{
+  "name": "govhub",
+  "author": "PastaPastaPasta",
+  "description": "Dash governance portal at gov.dashhq.org: follow, discuss and vote on Dash governance proposals, in the role dashcentral.org used to fill. Proposals and votes come from the Dash network and are checked in the browser; comments and profiles live on Dash Platform.",
+  "repo": "https://github.com/PastaPastaPasta/govhub",
+  "web_url": "https://gov.dashhq.org/",
+  "status": "live",
+  "access": "Public.",
+  "tags": [
+    "governance",
+    "mainnet",
+    "platform",
+    "voting"
+  ],
+  "last_verified": "2026-11-25"
+}
