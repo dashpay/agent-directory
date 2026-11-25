@@ -1,0 +1,15 @@
+{
+  "name": "lklimek agents marketplace",
+  "author": "lklimek",
+  "description": "Claude Code plugin marketplace that catalogs the Claudius, Claudash and MemCan plugins; each plugin lives in its own repository and is versioned independently. A repository can register it in .claude/settings.json so team members get it automatically.",
+  "repo": "https://github.com/lklimek/agents",
+  "status": "live",
+  "access": "Public, GPL-3.0. Claude Code: /plugin marketplace add lklimek/agents.",
+  "tags": [
+    "claude-code",
+    "plugins",
+    "marketplace",
+    "agents"
+  ],
+  "last_verified": "2026-11-25"
+}
