@@ -1,0 +1,15 @@
+{
+  "name": "DashPay Desktop (dashwallet-desktop)",
+  "author": "PastaPastaPasta",
+  "description": "Early desktop Dash wallet for macOS, Windows and Linux built on dashpay/platform's platform-wallet: Core send and receive, DashPay usernames and contacts, Platform addresses, shielded funds and CoinJoin on one recovery phrase. Pre-release builds are published as GitHub releases; no security review has been done yet.",
+  "repo": "https://github.com/PastaPastaPasta/dashwallet-desktop",
+  "status": "experimental",
+  "access": "Public repository and pre-release binaries.",
+  "tags": [
+    "wallet",
+    "desktop",
+    "dashpay",
+    "platform"
+  ],
+  "last_verified": "2026-11-25"
+}
