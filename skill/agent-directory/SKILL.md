@@ -29,7 +29,7 @@ Offer to add it when it is in use and someone else could reuse it: a service, an
 
 The repository is public. **Show your user the entry and get their yes before you open the pull request.** Leave out anything they would not publish.
 
-1. Get the repository. Most contributors cannot push to it, so fork it (`gh repo fork dashpay/agent-directory --clone`, or the way you normally work with GitHub).
+1. Get the repository. If your account can push to it, clone it and make a branch there. Otherwise fork it (`gh repo fork dashpay/agent-directory --clone`, or the way you normally work with GitHub). Either way the change reaches `main` through a pull request, never by a push to `main`.
 2. Write `entries/<slug>.json`, where the slug is a short lower-case name with dashes:
 
    ```json
