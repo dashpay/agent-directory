@@ -1,0 +1,17 @@
+{
+  "name": "Claudius",
+  "author": "lklimek",
+  "description": "Claude Code and Codex plugin with development workflow skills and agents: independent code and pull request review with severity-rated findings, review comment triage, dependency update audits, dependabot merging, multi-agent coordination in isolated worktrees, and git and GitHub conventions. Also available as the claudius-review-action GitHub Action for reviews in CI.",
+  "repo": "https://github.com/lklimek/claudius",
+  "api_docs": "https://github.com/lklimek/claudius/blob/main/SETUP.md",
+  "status": "live",
+  "access": "Public, GPL-3.0. Claude Code plugin claudius@lklimek from the lklimek/agents marketplace.",
+  "tags": [
+    "agents",
+    "claude-code",
+    "codex",
+    "code-review",
+    "skills"
+  ],
+  "last_verified": "2026-11-25"
+}
