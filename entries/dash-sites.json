@@ -1,0 +1,16 @@
+{
+  "name": "Dash Sites (dash.site)",
+  "author": "PastaPastaPasta",
+  "description": "Static websites published under Dash Platform names: the owner of a DPNS name such as alice.dash publishes a site, and alice.dash.site serves it. dash.site is a static site with no backend; the browser verifies ownership and file hashes against Platform proofs. A browser extension and a testnet deployment exist too.",
+  "repo": "https://github.com/PastaPastaPasta/dash-sites",
+  "web_url": "https://dash.site/",
+  "status": "live",
+  "access": "Public.",
+  "tags": [
+    "platform",
+    "dpns",
+    "websites",
+    "mainnet"
+  ],
+  "last_verified": "2026-11-25"
+}
