@@ -1,0 +1,15 @@
+{
+  "name": "Yappr",
+  "author": "PastaPastaPasta",
+  "description": "Decentralized social network and marketplace on Dash Platform: posts, replies, follows, likes, encrypted direct messages and private feeds, tips, stores and orders, all stored as Platform documents owned by their users.",
+  "repo": "https://github.com/PastaPastaPasta/yappr",
+  "web_url": "https://yap.pr/",
+  "status": "live",
+  "access": "Public.",
+  "tags": [
+    "social",
+    "platform",
+    "app"
+  ],
+  "last_verified": "2026-11-25"
+}
