@@ -12,6 +12,11 @@ on:
       - "README.md"
   workflow_dispatch:
 
+# main only takes pull requests. This job is the one thing that pushes to it
+# directly, with a deploy key that the rule on main lets through. The key is a
+# secret of the environment "index", which only runs for main, so a workflow on
+# another branch cannot read it. Without the key the job falls back to its own
+# token, which the rule on main refuses.
 permissions:
   contents: write
 
@@ -23,10 +28,12 @@ jobs:
   index:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    environment: index
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: main
+          ssh-key: ${{ secrets.INDEX_DEPLOY_KEY }}
           persist-credentials: true
       - name: Build
         run: python3 tools/build.py
