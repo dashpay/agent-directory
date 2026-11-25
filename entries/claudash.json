@@ -1,0 +1,16 @@
+{
+  "name": "Claudash",
+  "author": "lklimek",
+  "description": "Claude Code plugin with Dash Platform knowledge: lexicon tables generated from the platform source (Rust SDK, dpp, JS/TS SDK, DAPI gRPC, data contracts) and a skill that looks up exact types and their source, plus per-release public API changelogs for migrations and a testnet faucet skill.",
+  "repo": "https://github.com/lklimek/claudash",
+  "status": "live",
+  "access": "Public, GPL-3.0. Claude Code plugin claudash@lklimek from the lklimek/agents marketplace.",
+  "tags": [
+    "dash-platform",
+    "claude-code",
+    "sdk",
+    "documentation",
+    "agents"
+  ],
+  "last_verified": "2026-11-25"
+}
