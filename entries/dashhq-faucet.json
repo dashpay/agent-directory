@@ -1,0 +1,15 @@
+{
+  "name": "dashhq testnet faucet",
+  "author": "PastaPastaPasta",
+  "description": "Serverless Dash testnet faucet on Cloudflare Workers: sends tDASH to a testnet address behind proof-of-work and Turnstile rate limits, with no Dash node of its own. A public status endpoint reports its balance, payout amount and limits.",
+  "repo": "https://github.com/PastaPastaPasta/dash-faucet-cf",
+  "web_url": "https://faucet.dashhq.org/",
+  "api_url": "https://faucet.dashhq.org/api/status",
+  "status": "live",
+  "access": "Public web page. API keys for scripted use are issued by PastaPastaPasta.",
+  "tags": [
+    "testnet",
+    "faucet"
+  ],
+  "last_verified": "2026-11-25"
+}
