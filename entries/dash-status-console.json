@@ -7,7 +7,7 @@
   "api_url": "https://status.testnet.networks.dash.org/api/networks/testnet",
   "api_docs": "https://github.com/dashpay/status#readme",
   "status": "live",
-  "access": "Reading is public: /api/networks/<name>, /api/nodes, /api/health. Operator tokens are issued by a console admin; ask in #infra-claw.",
+  "access": "Reading is public: /api/networks/<name>, /api/nodes, /api/health, /api/ci, /api/ci/queue (CI jobs). Operator tokens are issued by a console admin; ask in #infra-claw.",
   "tags": ["testnet", "devnet", "nodes", "ci", "monitoring"],
   "last_verified": "2026-11-25"
 }
